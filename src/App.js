@@ -1,7 +1,9 @@
 // import logo from './logo.svg';
 // import './App.css';
 import React from "react";
+import Hooks from "./10_Hooks/Hooks";
 import ShoesShop from "./BT_ShoesShop/ShoesShop";
+import UserManagement from "./BT_Usermanagement/UserManagement";
 
 function App() {
   // return (
@@ -22,7 +24,7 @@ function App() {
   //     </header>
   //   </div>
   // );
-  return <ShoesShop/>
+  return <ShoesShop />;
 }
 
 export default App;
