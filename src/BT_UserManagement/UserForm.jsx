@@ -161,7 +161,7 @@ export default class UserForm extends Component {
         </div>
         {/* Submit */}
         <button className="btn btn-dark">Đăng kí</button>
-        <button className="btn btn-red">Cập nhật</button>
+        <button className="btn btn-primary">Cập nhật</button>
       </form>
     );
   }

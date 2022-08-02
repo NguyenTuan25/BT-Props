@@ -63,7 +63,7 @@ export default class ProductManagement extends Component {
         <UserList
           users={this.state.users}
           onDeleteSuccess={this.fetchUsers}
-          onSelectProduct={this.fetchUserDetails}
+          onSelectUser={this.fetchUserDetails}
         />
       </div>
     );
