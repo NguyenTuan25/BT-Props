@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import axios from "axios";
 import UserForm from "./UserForm";
 import UserList from "./UserList";
-
-export default class ProductManagement extends Component {
+export default class UserManagement extends Component {
   constructor(props) {
     super(props);
 

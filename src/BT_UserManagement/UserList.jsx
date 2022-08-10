@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 
-export default class ProductList extends Component {
+export default class UsertList extends Component {
   handleDelete = async (userId) => {
     try {
       // Call API xoá sản phẩm
