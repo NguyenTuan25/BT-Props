@@ -1,13 +1,14 @@
 import { configureStore } from "@reduxjs/toolkit";
-import BookingTicket from "./reducers/BookingTicket";
+import BookingReducer from "./reducers/bookingReducer";
 // tạo ra redux store để lưu trữ state
 const store = configureStore({
   reducer: {
-    // khai báo state
-    // count: () => {
-    //   return 120;
-    // },
-    booking: BookingTicket,
+    //   khai báo state
+    //   count: () => {
+    //     return 120;
+    //   },
+    seat: BookingReducer,
   },
+  devTools: true,
 });
 export default store;

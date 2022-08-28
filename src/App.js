@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 // import './App.css';
 import React from "react";
-import BookingTicket from "./BT_BookingTicket/BookingTicket";
+import Movie from "./BT_BookingTicket/Movie";
 
 import ShoesShop from "./BT_ShoesShop/ShoesShop";
 import UserManagement from "./BT_UserManagement/UserManagement";
@@ -26,9 +26,9 @@ function App() {
   //   </div>
   // );
   return (
-    <UserManagement />
+    // <UserManagement />
     // <ShoesShop />
-    // <BookingTicket />
+    <Movie />
   );
 }
 
